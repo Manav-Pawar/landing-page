@@ -97,7 +97,7 @@ export function BlockPage() {
       </section>
 
       {/* Client Logos */}
-      <div className="w-full overflow-hidden bg-white py-12">
+      <div className="w-full overflow-hidden bg-white py-12 flex justify-center items-center">
         <div 
           ref={sliderRef}
           className="flex gap-16 items-center whitespace-nowrap"
@@ -108,13 +108,13 @@ export function BlockPage() {
               <Image
                 src={
                   logo === 'amazon' 
-                    ? "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/black-official-amazon-logo-701751694791962sskadamgig-XiIYXIRdJFq8ToJMCthJM1za8CaBgS.png"
+                    ? "https://i.imgur.com/DKVIDBi.png"
                     : logo === 'hubspot'
-                    ? "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/images%20(1)-sDYAaUBYl4suXXACJFRMzAQxJxErRl.png"
+                    ? "https://i.imgur.com/W6yX7Md.png"
                     : logo === 'zoom'
-                    ? "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hd-black-zoom-text-logo-transparent-png-701751694778202hqzbkjjx75-MMkuCOi83Op43c3AoGx2rV0uUQqmv2.png"
+                    ? "https://i.imgur.com/zq6bY3U.png"
                     : logo === 'netflix'
-                    ? "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/images-4Yx3myJ1ol4IgiAUlnKzBOsn758ppO.png"
+                    ? "https://i.imgur.com/VykiVW7.png"
                     : logo === 'dribbble'
                     ? "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dribbble.jpg-ChCvVRndIS4jOLkUXO4ndEkCrRDLLf.jpeg"
                     : "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Notion-fIZEkKgggg3e6bUmbAdy5j0ltSftUh.svg"
